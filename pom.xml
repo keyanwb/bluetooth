@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hackathon</groupId>
+  <artifactId>bluetooth</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+		<version.maven-install-plugin>2.5.2</version.maven-install-plugin>
+		<version.javax.obex>1.0.0</version.javax.obex>
+   </properties>
+   <dependencies>
+   
+<!-- https://mvnrepository.com/artifact/net.sf.bluecove/bluecove -->
+<!-- <dependency>
+    <groupId>net.sf.bluecove</groupId>
+    <artifactId>bluecove</artifactId>
+    <scope>runtime</scope>
+    <version>2.1.0</version>
+</dependency> -->
+<dependency>
+    <groupId>javax.com</groupId>
+    <artifactId>comm</artifactId>
+    <version>1.0.0</version>
+</dependency>
+<!-- Thanks for using https://jar-download.com -->
+
+<dependency>
+    <groupId>com.bluecove</groupId>
+    <artifactId>bluecove</artifactId>
+    <version>2.1.1-SNAPSHOT</version>
+</dependency>
+
+<dependency>
+    <groupId>com.bluez</groupId>
+    <artifactId>bluez</artifactId>
+    <version>2.1.1-SNAPSHOT</version>
+</dependency>
+
+<dependency>
+    <groupId>com.emu</groupId>
+    <artifactId>emu</artifactId>
+    <version>2.1.1-SNAPSHOT</version>
+</dependency>
+
+<dependency>
+    <groupId>com.gpl</groupId>
+    <artifactId>gpl</artifactId>
+    <version>2.1.1-SNAPSHOT</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.scream3r/jssc -->
+<dependency>
+    <groupId>org.scream3r</groupId>
+    <artifactId>jssc</artifactId>
+    <version>2.8.0</version>
+</dependency>
+
+</dependencies>
+   
+</project>
